@@ -39,6 +39,7 @@ header h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 5rem;
   background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
@@ -62,6 +63,9 @@ main {
   border-radius: 6px;
   background-color: #140524;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  color: #ebe7ef;
 }
 
 main h2 {
